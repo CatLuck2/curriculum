@@ -13,7 +13,7 @@ public class Task1_2 {
     public static void main(String[] args) {
 
         // ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
-        String[] country = { "JAPAN","AMERICA","KOREA" };
+        String[] country = { "JAPAN", "AMERICA", "KOREA" };
         // ② ①で作成した配列の要素数を出力してください。
         System.out.println(country.length);
         /* ③下記の値を保持した、要素数3のStringクラスの配列strArrayを作成しなさい。
@@ -21,20 +21,21 @@ public class Task1_2 {
          *   2番目の要素に 「もも」 を代入
          *   3番目の要素に 「ぶどう」 を代入
          */
-        country[0] = "りんご";
-        country[1] = "もも";
-        country[2] = "ぶどう";
+        String[] strArray = new String[3];
+        strArray[0] = "りんご";
+        strArray[1] = "もも";
+        strArray[2] = "ぶどう";
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-        System.out.println(country[1]);
+        System.out.println(strArray[1]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-         *  int[]型の変数intArrayを宣言、10,20,30,40,50で初期化
+         *  「10」,「20」,「30」,「40」,「50」を初期値とする、int型の配列 intArray を宣言
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // int[]型の変数intArrayの2番目と5番目の要素を出力
+        // int型の配列 intArray の2番目と5番目の要素を出力
         System.out.println(intArray[1] + intArray[4]);
 
     }
