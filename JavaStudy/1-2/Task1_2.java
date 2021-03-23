@@ -35,7 +35,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // int型の配列 intArray の2番目と5番目の要素を出力
+        // int型の配列 intArray が持つ、2番目の要素と5番目の要素を結合した値を出力
         System.out.println(intArray[1] + intArray[4]);
 
     }
