@@ -10,7 +10,8 @@
  * ループiが終了したら、i番目の値は最小（もしくは最大）値となる。
  * （最初のループで終端（今回は左端）には、最小（もしくは最大）値が置かれる）
  * なので、次のループからはi番目の値を除外して、隣り合う値を比較。
- * iは比較時の始点、
+ * ループ内では、比較した値の中で最小の値が終端に来る。
+ * i < data.length - 2、だと、最後の値を比較できない
  * 
  */
 public class Check1{
@@ -28,7 +29,7 @@ public class Check1{
             System.out.print(data[i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < data.length; i++) {
+        for (int i = 0; i < data.length - 1; i++) {
             for (int j = data.length - 1; j > i; j--) {
                 /*
                 * 問3
