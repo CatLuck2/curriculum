@@ -67,9 +67,10 @@ Java EE（Jakarta EE）
 	大規模（Webサイト、Webアプリ）
 Perl
 	スクリプト言語
-		記述〜実行が簡略化された言語
-	Webブラウザのプログラムで利用されていた
-	需要は廃れた
+	コンパイル不要
+	CGI（CommonGatewayInterface）（外部サーバー内でプログラムを実行する仕組み）の構築に用いられる
+	Webアプリ、文書系のプログラム開発に用いられた
+	Unix,Linuxで使用される
 PHP
 	Hypertext Preprocessor
 	Web制作、Web開発用のスクリプト言語
