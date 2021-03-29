@@ -30,7 +30,8 @@ public class Study {
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * [ここへ記述]
-         *
+         *	HashMapクラスのインスタンスである、Mapインターフェース型の変数shohinListに、
+         *	（キー, 値）＝（"バナナ", 180）を追加
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
