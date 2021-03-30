@@ -17,7 +17,7 @@ public class Main {
     	String firstName = "洋佑";
     	String lastName = "藤澤";
         //getName関数の呼び出しと出力
-        System.out.println(getName(firstName, lastName));
+        System.out.println(getName(lastName, firstName));
         System.out.println();
 
         int[] arr = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
@@ -35,7 +35,7 @@ public class Main {
     //  修飾子：public
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
-    public static String getName(String first_name, String last_name) {
+    public static String getName(String last_name, String first_name) {
     	return last_name + first_name;
     }
     //奇数の判定を行う。
