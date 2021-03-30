@@ -31,7 +31,7 @@ public class Study {
         // カレンダークラスのMONTHは0~11（JANUARY~UNDECIMBER）までの値しか持たないから。
         // もし現在の月（1~12）を取得する場合、1を加算する必要がある。
         System.out.println(calendar.get(Calendar.YEAR));
-        System.out.println(calendar.get(Calendar.MONTH) + 1);
+        System.out.println(calendar.get(Calendar.MONTH) + 1 + 9);
         System.out.println(calendar.get(Calendar.DATE));
         // 問③ 上記の「calendar」を使用し、本日から1年2ヶ月15日先の日付を表示しなさい。
         // - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
