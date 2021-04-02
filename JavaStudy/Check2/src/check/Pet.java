@@ -2,14 +2,18 @@ package check;
 
 public class Pet {
 
+    // privateなのでPetクラス内でしかアクセス不可
     private String name;
     private String masterName;
 
+    // Check.javaは同一パッケージなので、protectedか無し、でも実行される
+    // privateだと、他クラスでコンストラクタできない、インスタンスを作成できない
     public Pet(String name, String masterName) {
         this.name = name;
         this.masterName = masterName;
     }
 
+    // 同一パッケージ、継承先からアクセス不可
     protected String getName() {
         return name;
     }
@@ -26,6 +30,7 @@ public class Pet {
 
 class RobotPet extends Pet {
     public RobotPet(String name, String masterName) {
+        // Petクラスのコンストラクタを使用
         super(name, masterName);
     }
 
