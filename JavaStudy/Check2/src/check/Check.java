@@ -16,6 +16,6 @@ public class Check {
 	}
 	
 	private static void printName(String first_name, String last_name) {
-		System.out.println("printNameメソッド → " + first_name + last_name);
+		System.out.println("printNameメソッド" + " " + "→" + " " + first_name + last_name);
 	}
 }
