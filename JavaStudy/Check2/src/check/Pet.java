@@ -13,7 +13,7 @@ public class Pet {
         this.masterName = masterName;
     }
 
-    // 同一パッケージ、継承先からアクセス不可
+    // 同一パッケージ、継承先からしかアクセス不可
     protected String getName() {
         return name;
     }
@@ -34,7 +34,9 @@ class RobotPet extends Pet {
         super(name, masterName);
     }
 
+    // Petクラスのintroduce()をオーバーライド(親クラスの同名メソッドを上書き)
     public void introduce() {
+        // 下記の処理に書き換え
         System.out.println("◇私はロボット。名前は" + getName() + "。");
         System.out.println("◇ご主人様は" + getMasterName() + "。");
     }

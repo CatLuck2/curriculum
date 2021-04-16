@@ -8,10 +8,13 @@ public class Check {
 	
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+		// Petインスタンスを作成
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
+		// RobotPetインスタンスを作成
 		RobotPet robotPet = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
-		
+			
 		printName(firstName, lastName);
+
 		pet.introduce();
 		robotPet.introduce();
 	}
