@@ -33,6 +33,13 @@
 }
 
 .right-top-content1 {
+    float: right;
+    width: 100px;
+    height: 150px;
+    background-color: orange;
+}
+
+.right-top-content2 {
     float: left;
     width: 150px;
     height: 150px;
@@ -48,13 +55,6 @@
     width: 100%;
     height: 100px;
     background-color: aqua;
-}
-
-.right-top-content2 {
-    float: left;
-    width: 100px;
-    height: 150px;
-    background-color: orange;
 }
 
 .right-bottom {

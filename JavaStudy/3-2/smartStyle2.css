@@ -10,14 +10,13 @@
         width: 200px;
     }
     .right-top-content1 {
-        width: 125px;
+        width: 75px;
     }
     .right-top-content2 {
-        width: 75px;
+        width: 125px;
     }
 }
 
 /* スマホ表示 */
 @media screen and (max-width: 479px) {
-    
 }
