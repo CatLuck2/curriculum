@@ -1,6 +1,20 @@
 /* タブレット表示 */
 @media screen and (max-width: 767px) {
-    
+    .wrapper {
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .right {
+        width: 200px;
+    }
+    .right-top-content1 {
+        width: 125px;
+    }
+    .right-top-content2 {
+        width: 75px;
+    }
 }
 
 /* スマホ表示 */
