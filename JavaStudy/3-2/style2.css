@@ -1,0 +1,75 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 400px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.contents {
+    width: 100%;
+    height: 250px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: cadetblue;
+}
+
+.right {
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+
+.right-top-content1 {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.right-top-subContent1 {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+
+.right-top-subContent2 {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.right-top-content2 {
+    float: left;
+    width: 100px;
+    height: 150px;
+    background-color: orange;
+}
+
+.right-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
