@@ -11,6 +11,7 @@
 
 .wrapper {
     width: 400px;
+    margin: 0 auto;
 }
 
 .header {
@@ -26,7 +27,7 @@
 .left {
     float: left;
     width: 150px;
-    
+
     height: 250px;
     background-color: cadetblue;
 }
