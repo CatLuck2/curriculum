@@ -1,3 +1,8 @@
+/* 
+    「工夫した点」
+    ・親要素のサイズ（幅、高さ）が同じ箇所は％で指定
+*/
+
 .clearfix::after { 
     content: ''; 
     display: block; 
