@@ -1,0 +1,37 @@
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: black;
+}
+
+.contents {
+    height: 250px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.right {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+}
+
+.footer {
+    height: 100px;
+    background-color: burlywood;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
