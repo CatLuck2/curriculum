@@ -19,5 +19,65 @@
 
 /* スマホ表示 */
 @media screen and (max-width: 479px) {
+    /* 
+        floatしてる要素
+        left
+        right
+        right-top-content1
+        right-top-content2
 
+        やること
+        contentsの各要素を縦一列に並べる
+            left
+            right
+                right-top
+                    right-top-content1
+                    right-top-content2
+                        right-top-subContent1
+                        right-top-subContent2
+                right-bottom
+
+        今起きてること
+        rightの高さを、全子要素の高さの合計、が上回っている
+        → rightの高さ、contentsの高さを変更
+
+        デスクトップ
+        contents    250
+        left    250
+        right   250
+
+        スマホ
+        contents   650  
+        left    250
+        right   400
+            right-top   300
+            right-bottom    100
+        
+    */
+    .wrapper {
+        width: 150px;
+    }
+    .contents {
+        height: 650px;
+    }
+    .left {
+        float: none;
+        width: 100%;
+    }
+    .right {
+        float: none;
+        width: 100%;
+    }
+    .right-top {
+        width: 100%;
+        height: 300px;
+    }
+    .right-top-content1 {
+        float: none;
+        width: 100%;
+    }
+    .right-top-content2 {
+        float: none;
+        width: 100%;
+    }
 }
