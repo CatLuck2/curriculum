@@ -27,12 +27,16 @@
     }
     .header-inner2 {
         top: 60px;
-        /* 初期値に戻す */
-        left: initial;
+        /* 
+            親要素のheader-wrapで
+            padding:10px、が施されており、
+            left:initial、でも可能。
+        */
+        left: 10px;
     }
     .header-inner3 {
         top: 110px;
-        left: initial;
+        left: 10px;
     }
 
     /* contents */
