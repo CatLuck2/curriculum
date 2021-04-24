@@ -38,6 +38,7 @@
     background-color: black;
 }
 .header-wrap {
+    position: absolute;
     box-sizing: border-box;
     top: 20px;
     bottom: 20px;
