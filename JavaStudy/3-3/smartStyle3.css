@@ -20,6 +20,20 @@
     .header {
         height: 200px;
     }
+    .header-wrap {
+        left: 70px;
+        width: 60px;
+        height: 160px;
+    }
+    .header-inner2 {
+        top: 60px;
+        /* 初期値に戻す */
+        left: initial;
+    }
+    .header-inner3 {
+        top: 110px;
+        left: initial;
+    }
 
     /* contents */
     .contents {
