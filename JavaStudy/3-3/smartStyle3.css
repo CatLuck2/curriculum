@@ -15,9 +15,15 @@
     .wrapper {
         width: 200px;
     }
+
+    /* header */
+    .header {
+        height: 200px;
+    }
+
     /* contents */
     .contents {
-        height: 500px;
+        height: 460px;
     }
     .left {
         float: none;
@@ -26,5 +32,6 @@
     .right {
         float: none;
         width: 200px;
+        height: 210px;
     }
 }
