@@ -1,0 +1,11 @@
+/* 
+    変更点
+    ・header,left,right,fotterの順に縦一列を形成
+    ・header-wrapを縦に配置
+    
+    実装すること
+    ・left,rightのfloatを解除
+    ・header,left,right,footerの幅を200px
+    ・contentsの高さをleftとrightの合計
+    （leftとrightの合計をcontentsの高さにする？）
+*/
