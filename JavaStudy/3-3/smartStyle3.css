@@ -9,3 +9,12 @@
     ・contentsの高さをleftとrightの合計
     （leftとrightの合計をcontentsの高さにする？）
 */
+
+@media screen and (max-width: 479px) {
+    .left {
+        float: none;
+    }
+    .right {
+        float: none;
+    }
+}
