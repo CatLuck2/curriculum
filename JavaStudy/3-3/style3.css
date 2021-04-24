@@ -78,6 +78,7 @@
     background-color: brown;
 }
 .right-wrap {
+    position: absolute;
     top: 40px;
     left: 40px;
     right: 60px;
