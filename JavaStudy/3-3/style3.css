@@ -26,6 +26,7 @@
     margin: 0 auto;
 }  
 /* :first-child */
+/* 親要素から見て、1番目のwrapクラスに適用 */
 .wrap:first-child {
     position: absolute;
 }
