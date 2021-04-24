@@ -11,6 +11,10 @@
 */
 
 @media screen and (max-width: 479px) {
+    /* contents */
+    .contents {
+        height: 500px;
+    }
     .left {
         float: none;
     }
