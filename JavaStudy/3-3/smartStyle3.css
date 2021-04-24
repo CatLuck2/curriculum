@@ -11,14 +11,20 @@
 */
 
 @media screen and (max-width: 479px) {
+    /* wrapper */
+    .wrapper {
+        width: 200px;
+    }
     /* contents */
     .contents {
         height: 500px;
     }
     .left {
         float: none;
+        width: 200px;
     }
     .right {
         float: none;
+        width: 200px;
     }
 }
