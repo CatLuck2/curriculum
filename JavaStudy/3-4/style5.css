@@ -1,0 +1,59 @@
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.group1 {
+    width: 100%;
+    height: 150px;
+}
+
+/* group1 */
+.group1-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFF00;
+}
+
+/* group2 */
+.group2-1, .group2-2, .group2-3 {
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+.group2-1 {
+    background-color: #33FFFF;
+}
+.group2-2 {
+    background-color: #FF0000;
+}
+.group2-3 {
+    background-color: #0000FF;
+}
+
+/* group3 */
+.group3-1, .group3-2 {
+    float: left;
+    height: 150px;
+}
+.group3-1 {
+    width: 500px;
+    background-color: #00FF00;
+}
+.group3-2 {
+    width: 100px;
+    background-color: #FF00FF;
+}
+
+/* group4 */
+.group4-1 {
+    width: 600px;
+    height: 150px;
+    background-color: #33FFFF;
+}
