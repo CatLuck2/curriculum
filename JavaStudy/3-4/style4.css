@@ -3,6 +3,12 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .group1, .group2, .group3 {
     width: 100%;
 }
