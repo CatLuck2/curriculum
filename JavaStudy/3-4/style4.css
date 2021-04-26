@@ -1,0 +1,57 @@
+.wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.group1, .group2, .group3 {
+    width: 100%;
+}
+
+/* group1 */
+.group1-1, .group1-2 {
+    height: 100px;
+}
+.group1-1 {
+    width: 150px;
+    background-color: yellow;
+}
+.group1-2 {
+    width: 200px;
+    background-color: gray;
+}
+
+/* group2 */
+.group2-1, .group2-2, .group2-3 {
+    height: 150px;
+}
+.group2-2, .group2-3 {
+    width: 100px;
+}
+.group2-1 {
+    width: 150px;
+    background-color: red;
+}
+.group2-2 {
+    background-color: blue;
+}
+.group2-3 {
+    background-color: greenyellow;
+}
+
+/* group3 */
+.group3-1, .group3-2, .group3-3 {
+    height: 100px;
+}
+.group3-2, .group3-3 {
+    width: 100px;
+}
+.group3-1 {
+    width: 150px;
+    background-color: orange;
+}
+.group3-2 {
+    background-color: goldenrod;
+}
+.group3-3 {
+    background-color: purple;
+}
