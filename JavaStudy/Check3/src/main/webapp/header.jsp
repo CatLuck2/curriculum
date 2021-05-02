@@ -13,7 +13,7 @@
 
 <header>
 	<label class="header-label">login</label>
-	<div class="header-date"></div>
+	<label class="header-date"></label>
 </header>
 
 </body>
