@@ -12,8 +12,10 @@
 <body>
 
 <header>
-	<label class="header-label">login</label>
-	<label class="header-date"></label>
+	<div class="header-group">
+		<label class="header-label">login</label>
+		<label class="header-date"></label>
+	</div>
 </header>
 
 </body>

@@ -11,7 +11,9 @@
 
 <!-- フッターを作成 -->
 <footer>
-	<label class="footer-label">hoge.Inc</label>
+	<div class="footer-group">
+		<label class="footer-label">hoge.Inc</label>
+	</div>
 </footer>
 </body>
 </html>
