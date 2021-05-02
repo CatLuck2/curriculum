@@ -9,6 +9,8 @@
 <body>
 
 <!-- フッターを作成 -->
-
+<footer>
+	<label class="footer-label">hoge.Inc</label>
+</footer>
 </body>
 </html>

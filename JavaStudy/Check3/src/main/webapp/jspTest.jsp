@@ -9,6 +9,20 @@
 <body>
 
 <!-- name、idの入力エリアを作成しなさい -->
+<div class="main">
+	<div class="table-input-group">
+		<table>
+			<tr>
+				<td align="right"><b>name</b></td>
+				<td><input type="text" name="name" size="30" maxlength="20"></td>
+			</tr>
+			<tr>
+				<td align="right"><b>id</b></td>
+				<td><input type="text" name="name" size="30" maxlength="20"></td>
+			</tr>
+		</table>
+	</div>
+</div>
 
 </body>
 </html>
