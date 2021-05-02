@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<!-- header -->
+<%@ include file="header.jsp" %>
+<!-- main -->
 <!-- name、idの入力エリアを作成しなさい -->
 <div class="main">
 	<div class="table-input-group">
@@ -24,6 +27,8 @@
 		</table>
 	</div>
 </div>
+<!-- footer -->
+<%@ include file="footer.jsp" %>
 
 </body>
 </html>
