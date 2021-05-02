@@ -13,8 +13,8 @@
 
 <header>
 	<div class="header-group">
-		<label class="header-label">login</label>
-		<label class="header-date"></label>
+		<label class="header-titleLabel">login</label>
+		<label class="header-dateLabel"></label>
 	</div>
 </header>
 

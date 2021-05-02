@@ -12,7 +12,7 @@
 <!-- フッターを作成 -->
 <footer>
 	<div class="footer-group">
-		<label class="footer-label">hoge.Inc</label>
+		<label class="footer-titleLabel">hoge.Inc</label>
 	</div>
 </footer>
 </body>

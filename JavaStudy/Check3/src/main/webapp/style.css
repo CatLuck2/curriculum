@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+/* jspTest */
+.table-input-group {
+	padding-top: 50px;
+	padding-bottom: 50px;	
+}
+
+/* header */
+.header-group {
+	background-color: gray;	
+}
+.header-titleLabel {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.header-dateLabel {
+	padding: 10px;
+	font-size: 10px;
+}
+
+/* footer */
+.footer-group {
+	background-color: gray;	
+}
+.footer-titleLabel {
+	display: inline-block;
+	padding: 10px;
+	color: white;	
+}
