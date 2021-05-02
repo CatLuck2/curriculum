@@ -17,12 +17,10 @@
 	<div class="table-input-group">
 		<table>
 			<tr>
-				<td align="right"><b>name</b></td>
-				<td><input type="text" name="name" size="30" maxlength="20"></td>
+				<td align="right">name</td>	<td><input></td>
 			</tr>
 			<tr>
-				<td align="right"><b>id</b></td>
-				<td><input type="text" name="name" size="30" maxlength="20"></td>
+				<td align="right">id</td> <td><input></td>
 			</tr>
 		</table>
 	</div>
