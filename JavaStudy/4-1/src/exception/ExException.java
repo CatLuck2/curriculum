@@ -67,6 +67,8 @@ public class ExException {
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
                     // ここへ記述
+                    int[] numberList = new int[10];
+                    System.out.println(numberList[100]);
                     break;
                     case CONST_EXCEPTION_TRIGER_CAST:
                     String castedStrValue = (String) CONST_OBJ_FOR_CLASS_CAST;
