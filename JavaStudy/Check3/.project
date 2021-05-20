@@ -30,7 +30,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1621059809867</id>
+=======
+			<id>1620050356619</id>
+>>>>>>> refs/remotes/origin/Java
 			<name></name>
 			<type>30</type>
 			<matcher>
