@@ -12,13 +12,13 @@
      </welcome-file-list>
      
  	<servlet>
- 	<servlet-name>select</servlet-name>
+ 	<servlet-name>SelectMonth</servlet-name>
  	<!--問① サーブレットのクラス名を入れてください。-->
  	<servlet-class>SelectServlet</servlet-class>
  	</servlet>
  	
  	<servlet-mapping>
- 	<servlet-name>select</servlet-name>
+ 	<servlet-name>SelectMonth</servlet-name>
  	<!--問② URLパターンを記述してください。-->
  	<url-pattern>/inputMonth</url-pattern>
  	</servlet-mapping>
